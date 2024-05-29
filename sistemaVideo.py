@@ -34,6 +34,7 @@ class SistemaVideo:
         
             while tipo < 1 or tipo > 3:
                 print("\Favor de ingresar una de las opciones validas")
+                tipo = int(input("\nIngrese nuevamente la opcion del tipo de video que quiere ingresar: "))
             
             if tipo == 1:
                 self.__agregarPelicula(identificador)
